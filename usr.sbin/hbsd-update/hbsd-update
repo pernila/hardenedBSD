@@ -87,6 +87,7 @@ usage() {
 	debug_print "OPTIONS:"
 	debug_print "\t-b BEname\tInstall updates to ZFS Boot Environment <BEname>"
 	debug_print "\t-c config\tUse a non-default config file"
+	debug_print "\t-C\t\tShow Local and Remote hbsd versions"
 	debug_print "\t-d\t\tDo not use DNSSEC validation"
 	debug_print "\t-f\t\tFetch only"
 	debug_print "\t-h\t\tShow this help screen"
